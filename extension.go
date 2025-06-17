@@ -1,4 +1,4 @@
-package main
+package encoding
 
 import (
 	"github.com/JBrVJxsc/xk6-encoding/encoding"
