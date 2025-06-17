@@ -6,5 +6,5 @@ import (
 )
 
 func init() {
-	modules.Register("k6/encoding", encoding.New())
+	modules.Register("k6/x/encoding", encoding.New())
 }

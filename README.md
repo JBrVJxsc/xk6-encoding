@@ -30,14 +30,14 @@ xk6 build --with github.com/JBrVJxsc/xk6-encoding@latest
 To encode text:
 
 ```javascript
-import { TextEncoder } from 'k6/encoding';
+import { TextEncoder } from 'k6/x/encoding';
 const encoder = new TextEncoder("utf-8");
 const encoded = encoder.Encode("Your text here");
 ```
 
 To decode text:
 ```javascript
-import { TextDecoder } from 'k6/encoding';
+import { TextDecoder } from 'k6/x/encoding';
 const decoder = new TextDecoder("utf-8");
 const decoded = decoder.Decode(encodedData);
 ```
