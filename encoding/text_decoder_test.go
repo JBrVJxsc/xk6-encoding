@@ -26,16 +26,8 @@ func executeTestScripts(ts testSetup, base string, scripts ...string) error {
 			return err
 		}
 
-		gotScriptErr := ts.ev.Start(func() error {
-			if _, err = ts.rt.RunProgram(program); err != nil {
-				return err
-			}
-
-			return nil
-		})
-
-		if gotScriptErr != nil {
-			return gotScriptErr
+		if _, err = ts.rt.RunProgram(program); err != nil {
+			return err
 		}
 	}
 
