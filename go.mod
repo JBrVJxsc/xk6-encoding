@@ -1,4 +1,4 @@
-module github.com/oleiade/xk6-encoding
+module github.com/JBrVJxsc/xk6-encoding
 
 go 1.23.0
 

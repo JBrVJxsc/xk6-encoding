@@ -23,7 +23,7 @@ go install go.k6.io/xk6/cmd/xk6@latest
 2. Build your custom k6 binary:
 
 ```bash
-xk6 build --with github.com/oleiade/xk6-encoding@latest
+xk6 build --with github.com/JBrVJxsc/xk6-encoding@latest
 ```
 
 3. Use in your k6 script:
